@@ -1,3 +1,3 @@
 # python-projects
 
-the DNA assignment;;
+the DNA assignment .
