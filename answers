@@ -1,0 +1,50 @@
+Name: Cindy
+CSE 160
+Homework 2
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file and your modified
+dna_analysis.py program.
+
+
+Problem 1:
+
+(No answers in this file.)
+
+Problem 2:
+
+GC-content: 0.43029262963
+
+Problem 3:
+
+a. There was a traceback error. This happened because we commented out the line of code that defines the  'gc_count' variable, so as a result, any lines of code that used the 'gc_count' variable will cause an error.
+
+b. Another similar error occurred. Since we removed the line of code that defined the 'nucleotides' variable, any other lines of code containing that variable wouldn't work, and would result in an error. 
+
+Problem 4:
+
+AT-content: 56.8993851852
+
+Problem 5:
+
+A count: 7701287
+T count: 7661547
+G count: 5738773
+C count: 5879128
+
+Problem 6:
+
+The test-high-gc-1.fastq and the test-high-gc-2.fastq files - in both of those, the sum of A+T+G+C counts were both different from the total count and the length of nucleotides. The sum of the A+T+G+C is different from the total count and the length of nucleotides because in the DNA tests, there were other nucleotides as well, and not just A, T, G, and C nucleotides. 
+
+The quantities that should be used as the denominator for the GC content are the total count, and the length of nucleotides. The sum of A+T+G+C shouldn't be used, because it may not account for of the different nucleotides.
+
+Problem 7:
+
+AT/GC ratio: 1.32234161747
+
+Problem 8:
+
+GC classification: moderate GC content
